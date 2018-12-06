@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            function render() {
+            var input01 = parseInt(frmMain.txtinput01.value);
+            var input02 = parseInt(frmMain.txtinput02.value);
+            //alert(input01 + input02);
+            //console.log(input01 + input02);
+            if  (Number.isInteger(input01) && Number.isInteger(input02))    {
+            //alert("Got it");
+            alert(input01 + input02);
+        }  else {
+            alert("Please enter the integer number");
+        }
+    }
+  </script> 
+            </head>
+                        <body>
+                   
+                <form Name = "frmMain">
+                    <label>Parameter:</label>
+                    <input type="text" name = "txtinput01" placeholder="Number"/>
+                    <input type="text" name = "txtinput02" placeholder="Number Two"/>
+                    <input type="submit" Value = "Submit" onclick="render()"/>
+                    
+                </form>
+                
+            </body>
+    Note: Please enter Integer number only.
+</html>
