@@ -1,0 +1,48 @@
+<html>
+<head>
+   
+</head>
+
+    <body>
+        <fieldset style = "width:300">
+        <label style = "color:black" >CALCULATOR</label>
+        <form name = calcform >
+           
+        
+            
+        
+     
+            <tr><td><input type ="text" name = "result" readonly style = "width:310"></td></tr>
+                    
+         <br></br>
+            <td><input type = "button" value = "1" style = "width:100" onclick = "calcform.result.value += '1'" ></td>
+            <tc><td><input type = "button" value =  "2"  style = "width:100" onclick = "calcform.result.value += '2'"></td></tc>
+            <tc><td><input type = "button" value =  "3"  style = "width:100" onclick = "calcform.result.value += '3'"></td></tc>
+                 
+            <br></br>
+            <tr><td><input type = "button" value = "4"  style = "width:100"  onclick = "calcform.result.value += '4'"></td>
+            <tc><td><input type = "button" value =  "5" style = "width:100" onclick = "calcform.result.value += '5'"></td></tc>
+            <tc><td><input type = "button" value =  "6"  style = "width:100" onclick = "calcform.result.value += '6'"></td></tc>
+            <br></br>
+            
+            <tr><td><input type = "button" value = "7"  style = "width:100" onclick = "calcform.result.value += '7'"></td>
+            <tc><td><input type = "button" value =  "8"  style = "width:100" onclick = "calcform.result.value += '8'"></td></tc>
+            <tc><td><input type = "button" value =  "9"  style = "width:100" onclick = "calcform.result.value += '9'"></td></tc>
+            <br></br>
+            <td><input type = "button" value = "0"  style = "width:100" onclick = "calcform.result.value += '0'"></td>
+            <tc><td><input type = "button" value =  "+"  style = "width:100" onclick = "calcform.result.value += '+'"></td></tc>
+            <tc><td><input type = "button" value =  "-"  style = "width:100" onclick = "calcform.result.value += '-'"></td></tc>
+            <br></br>
+            <tc><td><input type = "button" value =  "*"  style = "width:100" onclick = "calcform.result.value +=  '*'"></td></tc>
+            <tc><td><input type = "button" value =  "/"  style = "width:100" onclick = "calcform.result.value += '/'"></td></tc></tr>
+            <tc><td><input type = "button" value =  "="  style = "width:100" onclick = "calcform.result.value = eval(calcform.result.value)"></td></tc></tr>
+           <br></br>
+           <tr><td><input type = "button" value =  "Clear All"  style = "width:200" onclick = "calcform.result.value = ' '"></td></tr>
+           <tc><td><input type = "button" value =  "C"  style = "width:100" onclick = "calcform.result.value = '0'"></td></tr>
+           
+           </border>
+        </table>
+    </form>
+        </fieldset>
+    </body>
+</html>
